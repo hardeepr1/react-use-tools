@@ -1,5 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
 
+/**
+ * Throttle a value by a delay
+ * @param value The value to throttle
+ * @param delay The delay in milliseconds
+ * @returns The throttled value
+ */
 export function useThrottle<T>(value: T, delay: number): T {
   const [throttledValue, setThrottledValue] = useState(value);
   const lastExecuted = useRef(Date.now());
