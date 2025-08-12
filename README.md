@@ -1,5 +1,9 @@
 # 🧰 use-tools — Advanced React Custom Hooks
 
+## What are React Custom Hooks?
+
+React custom hooks are simple functions that use built-in hooks to encapsulate and reuse logic across components. They help you keep your components clean and DRY by extracting common behaviors into reusable functions.
+
 > 🚧 **Work In Progress**: This library is currently under active development.
 
 **use-tools** is a modern, lightweight collection of reusable React custom hooks written in TypeScript. It helps developers add common behaviors like debouncing, throttling, timers, and lifecycle tracking in a clean and performant way.
@@ -34,3 +38,4 @@ npm install @your-username/use-tools
 
 # Or use locally if you're developing or testing
 npm install path/to/local/use-tools
+```
