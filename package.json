@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && vite build",
     "test": "vitest",
     "test:coverage": "vitest run --coverage"
   },
@@ -19,8 +19,10 @@
     "@testing-library/react": "^16.3.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^5.0.0",
     "jsdom": "^26.1.0",
     "typescript": "^5.8.3",
+    "vite": "^7.1.2",
     "vitest": "^3.2.4"
   }
 }
