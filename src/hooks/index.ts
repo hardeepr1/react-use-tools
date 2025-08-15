@@ -1,6 +1,5 @@
-export * from './useDebounceValue';
+export * from './useDebounceValue/useDebounceValue';
 
-export * from './usePageVisibility';
 export * from './useThrottle';
 export * from './usePrevious';
 export * from './useGeolocation';
@@ -11,3 +10,5 @@ export * from './useCopyToClipboard';
 export * from './useOnlineStatus';
 export * from './useLocalStorage';
 export * from './useSessionStorage';
+export * from './usePageVisibility';
+export * from './useDebounceValue';
