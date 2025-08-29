@@ -9,3 +9,4 @@ export * from './usePageVisibility';
 export * from './useDebounceValue';
 export * from './useWindowSize';
 export * from './usePrevious';
+export * from './useEventListener';
